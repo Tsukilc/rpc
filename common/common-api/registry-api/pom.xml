@@ -5,24 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.topview</groupId>
-        <artifactId>rpc</artifactId>
+        <artifactId>common-api</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>common</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>common-api</module>
-    </modules>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.24</version>
-            <scope>provided</scope>
-        </dependency>
-    </dependencies>
+    <artifactId>registry-api</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -31,3 +18,4 @@
     </properties>
 
 </project>
+

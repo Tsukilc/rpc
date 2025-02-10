@@ -5,22 +5,25 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.topview</groupId>
-        <artifactId>rpc</artifactId>
+        <artifactId>registration-center</artifactId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath>../../pom.xml</relativePath>
     </parent>
 
-    <artifactId>common</artifactId>
+    <artifactId>register-core</artifactId>
     <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>common-api</module>
+        <module>discovery</module>
+        <module>registry</module>
     </modules>
 
     <dependencies>
         <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.24</version>
-            <scope>provided</scope>
+            <groupId>com.topview</groupId>
+            <artifactId>register-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 

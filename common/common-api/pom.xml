@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>cal-api</module>
+        <module>registry-api</module>
     </modules>
 
     <properties>
