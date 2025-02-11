@@ -19,6 +19,7 @@
         <module>common</module>
         <module>business</module>
         <module>registration-center</module>
+        <module>dubbo</module>
     </modules>
 
     <dependencies>

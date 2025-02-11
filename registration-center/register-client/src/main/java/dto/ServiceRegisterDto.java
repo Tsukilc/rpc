@@ -16,4 +16,9 @@ public class ServiceRegisterDto {
     private String servicePort;
 
 
+    public ServiceRegisterDto(String serviceName, String serviceAddress, String servicePort) {
+        this.serviceName = serviceName;
+        this.serviceAddress = serviceAddress;
+        this.servicePort = servicePort;
+    }
 }

@@ -11,6 +11,7 @@
     <file url="file://$PROJECT_DIR$/common/common-api/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dubbo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/interface/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/interface/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/registration-center/client/src/main/java" charset="UTF-8" />
