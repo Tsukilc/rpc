@@ -3,7 +3,7 @@ com.nacos.simulation
 ├── core
 │   ├── discovery              // 服务发现模块
 │   │   ├── ServiceRegistry    // 服务注册
-│   │   ├── ServiceDiscovery   // 服务发现
+│   │   ├── service.ServiceRegister   // 服务发现
 │   │   └── ServiceInstance    // 服务实例
 │   │
 │   ├── config                 // 配置管理模块
@@ -12,7 +12,7 @@ com.nacos.simulation
 │   │   └── ConfigSnapshot     // 配置快照管理
 │   │
 │   ├── registry               // 注册中心模块（例如，基于内存或数据库）
-│   │   ├── InMemoryRegistry   // 内存注册中心实现
+│   │   ├── service.InMemoryRegistry   // 内存注册中心实现
 │   │   ├── DatabaseRegistry   // 数据库注册中心实现（如 MySQL、H2 等）
 │   │   └── NacosProtocol      // 网络协议层（如 HTTP 或 gRPC）
 │   │

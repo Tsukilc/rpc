@@ -23,6 +23,7 @@
         <dependency>
             <groupId>com.topview</groupId>
             <artifactId>registration-center</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
